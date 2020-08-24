@@ -1,4 +1,4 @@
-# KataFizzBuzzTDD
+## FizzBuzzTDD
 This is a Kata to practice Test Driven Development with the "FizzBuzz" example.
  FizzBuzz consist on the following:
    1. Given a number that is multiple of 3, return "Fizz".
@@ -7,4 +7,13 @@ This is a Kata to practice Test Driven Development with the "FizzBuzz" example.
    4. Given another number, return this number in a string.
 
 
-1. Give you the score of the game.
+## Installing/Running
+
+Only need to be cloned and executed.
+
+## Built With
+
+* [Java](https://www.java.com/es/) - Programming language
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [JUnit](https://junit.org/junit5/) - GUI widget toolkit for Java 
+* [TDD](https://en.wikipedia.org/wiki/Test-driven_development) - Test-driven development process.
