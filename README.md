@@ -15,9 +15,9 @@ FizzBuzz consist on the following:
 mvn test
 ```
 
-## Built With
+## Built with
 
 * [Java](https://www.java.com/es/) - Programming language
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [JUnit](https://junit.org/junit5/) - GUI widget toolkit for Java 
-* [TDD](https://en.wikipedia.org/wiki/Test-driven_development) - Test-driven development process.
+* [Maven](https://maven.apache.org/) - Dependency manager
+* [JUnit](https://junit.org/junit5/) - Unit testing framework
+* [TDD](https://en.wikipedia.org/wiki/Test-driven_development) - Test-driven development process
