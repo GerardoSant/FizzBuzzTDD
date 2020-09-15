@@ -9,9 +9,11 @@ FizzBuzz consist on the following:
   4. Given another number, return this number in a string.
 
 
-## Installing/Running
+## Running tests
 
-Only need to be cloned and executed.
+```bash
+mvn test
+```
 
 ## Built With
 
