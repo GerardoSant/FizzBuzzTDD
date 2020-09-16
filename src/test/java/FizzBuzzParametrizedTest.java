@@ -15,23 +15,22 @@ public class FizzBuzzParametrizedTest {
     }
 
     @Test
-    public void execute(){
+    public void execute() {
         assertThat(FizzBuzz.of(number)).isEqualTo(value);
     }
 
     @Parameterized.Parameters
-    public static Object[][] cases(){
-        return new Object[][]{
-                {1,"1"},
-                {2,"2"},
-                {3,"Fizz"},
-                {6,"Fizz"},
-                {5,"Buzz"},
-                {10,"Buzz"},
-                {15,"FizzBuzz"},
-                {30,"FizzBuzz"},
+    public static Object[][] cases() {
+        return new Object[][] {
+            { 1, "1" },
+            { 2, "2" },
+            { 3, "Fizz" },
+            { 6, "Fizz" },
+            { 5, "Buzz" },
+            { 10, "Buzz" },
+            { 15, "FizzBuzz" },
+            { 30, "FizzBuzz" },
         };
     }
-
-
 }
+
