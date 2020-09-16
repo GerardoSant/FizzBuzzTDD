@@ -1,7 +1,10 @@
 public class FizzBuzz {
 
     public static String of(int number) {
-        return (isDivisibleByThree(number) && isDivisibleByFive(number)) ? "FizzBuzz" : isDivisibleByThree(number) ? "Fizz" : isDivisibleByFive(number) ? "Buzz" : intToString(number);
+        String result =
+            (isDivisibleByThree(number) ? "Fizz" : "") +
+            (isDivisibleByFive(number) ? "Buzz" : "");
+        return result.isEmpty() ? intToString(number) : result;
     }
 
     private static String intToString(int number) {
