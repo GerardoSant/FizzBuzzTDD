@@ -8,11 +8,11 @@ public class FizzBuzz {
         return String.valueOf(number);
     }
 
-    private static boolean isDivisibleByFive(int i) {
-        return i % 5 == 0;
+    private static boolean isDivisibleByFive(int number) {
+        return number % 5 == 0;
     }
 
-    private static boolean isDivisibleByThree(int i) {
-        return i%3==0;
+    private static boolean isDivisibleByThree(int number) {
+        return number % 3 == 0;
     }
 }
